@@ -1,0 +1,227 @@
+1. Introduction to HTML
+HTML stands for HyperText Markup Language.
+HTML is used to create the structure of a webpage.
+HTML is not case-sensitive.
+File extensions: .html, .htm.
+HTML was introduced by Tim Berners-Lee in 1991.
+2. Structure of an HTML Document
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Welcome to HTML</p>
+</body>
+</html>
+
+Important tags:
+
+<!DOCTYPE html> – Declares the HTML document type.
+<html> – Root element of the HTML page.
+<head> – Contains metadata.
+<title> – Defines the webpage title.
+<body> – Contains visible webpage content.
+3. HTML Tags
+
+A tag is a predefined keyword enclosed within angle brackets (< >).
+
+Paired Tags: Have opening and closing tags.
+
+<p>Hello World</p>
+<h1>Welcome</h1>
+
+Unpaired Tags: Do not require closing tags.
+
+<br>
+<hr>
+<img src="image.jpg" alt="Sample Image">
+4. HTML Headings
+
+HTML provides six levels of headings, from <h1> to <h6>.
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<h1> represents the highest-level heading, while <h6> represents the lowest-level heading.
+
+5. HTML Paragraphs and Elements
+
+The <p> tag defines a paragraph.
+
+<p>This is a paragraph.</p>
+
+An HTML element consists of a start tag, content, and an end tag.
+
+Example:
+
+<h1>Hello World</h1>
+
+Block-level elements: Start on a new line and generally occupy the available width.
+
+Examples: <div>, <p>, <h1>, <table>.
+
+Inline elements: Occupy only the space required by their content.
+
+Examples: <span>, <b>, <i>, <u>.
+
+6. HTML Attributes
+
+Attributes provide additional information about HTML elements. They are specified in the opening tag.
+
+<p id="intro" class="text" title="Introduction" style="color: blue;">
+    Welcome to HTML
+</p>
+
+Important attributes:
+
+id – Identifies a particular element uniquely.
+class – Assigns one or more class names to elements.
+title – Provides additional information, often displayed as a tooltip.
+style – Applies inline CSS styles.
+7. HTML Formatting Tags
+Tag	Purpose
+<b>	Displays bold text
+<strong>	Indicates important text
+<i>	Displays italic text
+<em>	Emphasizes text
+<u>	Underlines text
+<ins>	Represents inserted text
+<del>	Represents deleted text
+<mark>	Highlights text
+<sub>	Displays subscript text
+<sup>	Displays superscript text
+<strike>	Displays strikethrough text (obsolete in HTML5)
+
+Example:
+
+<b>Bold</b>
+<i>Italic</i>
+<u>Underline</u>
+<mark>Highlighted</mark>
+H<sub>2</sub>O
+x<sup>2</sup>
+8. Semantic Elements
+
+Semantic elements describe the meaning of their content.
+
+Important semantic elements:
+
+<header> – Introductory content.
+<nav> – Navigation links.
+<main> – Main content of the page.
+<section> – Groups related content.
+<article> – Independent content.
+<aside> – Related or supplementary content.
+<footer> – Footer content.
+<figure> – Self-contained content, such as an image.
+<figcaption> – Caption for a figure.
+
+Non-semantic elements:
+
+<div>
+<span>
+
+These elements do not indicate the specific meaning of their content.
+
+9. HTML Lists
+Unordered List
+
+Displays items with bullets by default.
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+Ordered List
+
+Displays items in a numbered sequence by default.
+
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+Description List
+
+Displays terms and their descriptions.
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Used to structure webpages.</dt>
+</dl>
+
+Note: The closing tag for the description in the example should be </dd>. The correct code is:
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Used to structure webpages.</dd>
+</dl>
+Nested List
+
+A list placed inside another list is called a nested list.
+
+<ul>
+    <li>Frontend
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </li>
+</ul>
+10. HTML Images
+
+The <img> tag inserts an image into a webpage.
+
+<img src="image.jpg" alt="Sample Image" width="300" height="200">
+
+Important attributes:
+
+src – Specifies the image path.
+alt – Provides alternative text.
+width – Sets the image width.
+height – Sets the image height.
+11. Anchor Tags and Hyperlinks
+
+The <a> tag creates a hyperlink to another page or resource. The href attribute specifies the destination.
+
+<a href="https://www.google.com">Visit Google</a>
+
+Image as a link:
+
+<a href="https://www.google.com">
+    <img src="image.jpg" alt="Google">
+</a>
+
+Button as a link:
+
+<a href="https://www.google.com">
+    <button>Visit Google</button>
+</a>
+12. Absolute URL vs Relative URL
+
+Absolute URL: Contains the complete web address.
+
+<a href="https://www.w3.org/">W3C</a>
+
+Relative URL: Specifies a path relative to the current website or document location.
+
+<a href="about.html">About Us</a>
+13. Target Attribute
+
+The target attribute specifies where to open the linked document.
+
+<a href="https://www.google.com" target="_blank">Open Google</a>
+Value	Purpose
+_self	Opens in the same tab (default).
+_blank	Opens in a new tab or window.
+_parent	Opens in the parent browsing context.
+_top	Opens in the top-level browsing context.
