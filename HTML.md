@@ -4,6 +4,7 @@ HTML is used to create the structure of a webpage.
 HTML is not case-sensitive.
 File extensions: .html, .htm.
 HTML was introduced by Tim Berners-Lee in 1991.
+
 2. Structure of an HTML Document
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +26,7 @@ Important tags:
 <head> – Contains metadata.
 <title> – Defines the webpage title.
 <body> – Contains visible webpage content.
+    
 3. HTML Tags
 
 A tag is a predefined keyword enclosed within angle brackets (< >).
@@ -39,6 +41,7 @@ Unpaired Tags: Do not require closing tags.
 <br>
 <hr>
 <img src="image.jpg" alt="Sample Image">
+
 4. HTML Headings
 
 HTML provides six levels of headings, from <h1> to <h6>.
@@ -86,6 +89,7 @@ id – Identifies a particular element uniquely.
 class – Assigns one or more class names to elements.
 title – Provides additional information, often displayed as a tooltip.
 style – Applies inline CSS styles.
+
 7. HTML Formatting Tags
 Tag	Purpose
 <b>	Displays bold text
@@ -108,6 +112,7 @@ Example:
 <mark>Highlighted</mark>
 H<sub>2</sub>O
 x<sup>2</sup>
+
 8. Semantic Elements
 
 Semantic elements describe the meaning of their content.
@@ -177,6 +182,7 @@ A list placed inside another list is called a nested list.
         </ul>
     </li>
 </ul>
+
 10. HTML Images
 
 The <img> tag inserts an image into a webpage.
@@ -189,6 +195,7 @@ src – Specifies the image path.
 alt – Provides alternative text.
 width – Sets the image width.
 height – Sets the image height.
+
 11. Anchor Tags and Hyperlinks
 
 The <a> tag creates a hyperlink to another page or resource. The href attribute specifies the destination.
@@ -206,6 +213,7 @@ Button as a link:
 <a href="https://www.google.com">
     <button>Visit Google</button>
 </a>
+
 12. Absolute URL vs Relative URL
 
 Absolute URL: Contains the complete web address.
